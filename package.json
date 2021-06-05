@@ -1,0 +1,15 @@
+{
+  "name": "cfx.v3",
+  "version": "0.0.1",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "build": "pnpx spack",
+    "example": "serve -s -l 8080"
+  },
+  "main": "/lib/index.js",
+  "devDependencies": {
+    "@swc/cli": "^0.1.45",
+    "@swc/core": "^1.2.58",
+    "serve": "^11.3.2"
+  }
+}
